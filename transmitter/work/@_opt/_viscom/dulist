@@ -1,0 +1,2 @@
+1 7 uart_tx 3 rtl 43 /home/vlsi1_4/projeto_uart/transmitter/work 1 65 0 0 129 0
+1 10 tb_uart_tx 3 sim 43 /home/vlsi1_4/projeto_uart/transmitter/work 1 65 0 0 226 0

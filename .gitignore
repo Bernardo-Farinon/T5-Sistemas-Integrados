@@ -1,0 +1,6 @@
+/work/
+/work/*
+
+*.wlf
+*.ini   
+transcript

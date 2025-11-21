@@ -1,0 +1,112 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e vcom 2025.3 2025.09, Sep 15 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/vlsi1_4/projeto_uart/receiver
+T_opt
+!i145 1
+!i144 0
+!s110 1763512793
+V74nm=]aO8[7[`K6LKnBJF2
+04 10 3 work tb_uart_rx sim 1
+=1-e83935110129-691d11d9-93313-b024a
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2025.3;82
+R1
+Etb_uart_rx
+Z2 w1763512587
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 9
+R1
+Z6 8tb_uart_rx.vhd
+Z7 Ftb_uart_rx.vhd
+l0
+L5 1
+VJz[Bz8:FM`ocQd?bin<=D1
+!s100 JKRF9e8Iz0S2F_QzXNiT22
+Z8 OL;C;2025.3;82
+32
+Z9 !s110 1763720545
+!i10b 1
+Z10 !s108 1763720545.000000
+Z11 !s90 tb_uart_rx.vhd|
+Z12 !s107 tb_uart_rx.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Asim
+R3
+R4
+R5
+Z14 DEx4 work 10 tb_uart_rx 0 22 Jz[Bz8:FM`ocQd?bin<=D1
+!i122 9
+l34
+Z15 L8 69
+Z16 VonEFIKD1JOm<1I[XN28Il3
+Z17 !s100 <2;dz68CZ?3@iB19_n6eI1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Euart_rx
+Z18 w1763720103
+R3
+R4
+R5
+!i122 8
+R1
+Z19 8uart_rx.vhd
+Z20 Fuart_rx.vhd
+l0
+L5 1
+VS;iLm4a?KliWIa4z1B_=k1
+!s100 d=;6[@NS?`J=>GLd_:^Bl2
+R8
+32
+!s110 1763720544
+!i10b 1
+Z21 !s108 1763720544.000000
+Z22 !s90 uart_rx.vhd|
+Z23 !s107 uart_rx.vhd|
+!i113 0
+R13
+Artl
+R3
+R4
+R5
+DEx4 work 7 uart_rx 0 22 S;iLm4a?KliWIa4z1B_=k1
+!i122 8
+l32
+L17 98
+Vk0bRMMWG8JHN>@PUcal9Y1
+!s100 ?TJQe]?nnm4f_a?77;CEo1
+R8
+32
+R9
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R13

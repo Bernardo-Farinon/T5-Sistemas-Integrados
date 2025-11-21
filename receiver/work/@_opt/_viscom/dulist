@@ -1,0 +1,2 @@
+1 7 uart_rx 3 rtl 40 /home/vlsi1_4/projeto_uart/receiver/work 1 65 0 0 140 0
+1 10 tb_uart_rx 3 sim 40 /home/vlsi1_4/projeto_uart/receiver/work 1 65 0 0 245 0

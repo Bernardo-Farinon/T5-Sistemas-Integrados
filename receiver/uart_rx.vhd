@@ -21,7 +21,7 @@ architecture rtl of uart_rx is
     signal baud_div_cnt     : integer := 0;
     signal baud_tick        : std_logic := '0';
 
-    -- FMS idle start data stop
+    -- FMS
     type state_type is (IDLE, START, DATA, STOP);
     signal state            : state_type := IDLE;
 
@@ -76,7 +76,7 @@ begin
 
                 case state is
                     when IDLE =>
-                        if uart_data_rx = '0' then  -- detectou borda de início
+                        if uart_data_rx = '0' then 
                             state <= START;
                         end if;
 
@@ -100,15 +100,15 @@ begin
                     when STOP =>
                         if uart_data_rx = '1' then
                             data_p_out    <= shift_reg;
-                            data_p_en_out <= '1';   -- pulso de dado valido
+                            data_p_en_out <= '1';  
                         end if;
 
                         state <= IDLE;
 
                 end case;
 
-            end if;  -- baud_tick
+            end if; 
 
-        end if; -- rising_edge
+        end if;
     end process;
 end architecture rtl;
